@@ -187,7 +187,41 @@ ANCHOR_H5AD="NCBI867_1_3_cropped_coord_matched_filtered_20percent.h5ad"
 
 ---
 
-## 5) Parameter explanation
+## 5) DeepCMorph version note and troubleshooting
+
+Because different `DeepCMorph` versions may be used in different environments, reproduced results may have slight differences.
+
+If you need to **fully reproduce** our results, please download our provided `DeepCMorph` model version from:
+
+`xxx`
+
+Then place it in your pip-installed package path at:
+
+```bash
+cytobulk/tools/model/pretrained_models/DeepCMorph_Datasets_Combined_41_classes_acc_8159.pth
+```
+
+If you encounter the following error while running `ct.tl.he_mapping`:
+
+```text
+_pickle.UnpicklingError: invalid load key, '<'.
+```
+
+This error usually means the pretrained model file was not fully downloaded (corrupted/incomplete file). To resolve it, manually download the model file and place it in the package pretrained-model directory.
+
+Download link:
+
+`xxx/DeepCMorph_Datasets_Combined_41_classes_acc_8159.pth`
+
+Then place it at:
+
+```bash
+cytobulk/tools/model/pretrained_models/DeepCMorph_Datasets_Combined_41_classes_acc_8159.pth
+```
+
+---
+
+## 6) Parameter explanation
 
 This section explains the main arguments used by the `HE_mapping_CID867.py` command.  
 They correspond to two steps in your pipeline:
@@ -197,7 +231,7 @@ They correspond to two steps in your pipeline:
 
 ---
 
-### 5.1 SVS preprocessing (cropping / tiling)
+### 6.1 SVS preprocessing (cropping / tiling)
 
 These parameters control how the `.svs` image is converted into tiles.
 
@@ -232,7 +266,7 @@ These parameters control how the `.svs` image is converted into tiles.
 
 ---
 
-### 5.2 HE mapping (optimal transport alignment): `ct.tl.he_mapping(...)`
+### 6.2 HE mapping (optimal transport alignment): `ct.tl.he_mapping(...)`
 
 Run H&E-stained image cell type mapping with single-cell RNA-seq data.
 
@@ -240,7 +274,7 @@ This function predicts cell types from H&E-stained histology images and aligns t
 
 ---
 
-## 6) Parameters
+## 7) Parameters
 
 - `image_dir : str`  
   Directory containing H&E image tiles.  

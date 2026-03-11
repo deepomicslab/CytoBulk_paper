@@ -70,3 +70,38 @@ Outputs will be written to:
 ```bash
 ${OUTPUT_DIR}/demo/
 ```
+set enable_cropping as 0 when running whole image.
+
+---
+
+## 4) DeepCMorph version note and troubleshooting
+
+Because different `DeepCMorph` versions may be used in different environments, reproduced results may have slight differences.
+
+If you need to **fully reproduce** our results, please download our provided `DeepCMorph` model version from:
+
+`xxx`
+
+Then place it in your pip-installed package path at:
+
+```bash
+cytobulk/tools/model/pretrained_models/DeepCMorph_Datasets_Combined_41_classes_acc_8159.pth
+```
+
+If you encounter the following error while running `ct.tl.he_mapping`:
+
+```text
+_pickle.UnpicklingError: invalid load key, '<'.
+```
+
+This error usually means the pretrained model file was not fully downloaded (corrupted/incomplete file). To resolve it, manually download the model file and place it in the package pretrained-model directory.
+
+Download link:
+
+`xxx/DeepCMorph_Datasets_Combined_41_classes_acc_8159.pth`
+
+Then place it at:
+
+```bash
+cytobulk/tools/model/pretrained_models/DeepCMorph_Datasets_Combined_41_classes_acc_8159.pth
+```
