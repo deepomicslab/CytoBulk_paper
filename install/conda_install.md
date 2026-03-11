@@ -21,7 +21,9 @@ This will install all Python dependencies specified in `environment.yml` and ins
 
 ## 1.2 Install Giotto in R (required for marker detection)
 
-CytoBulk uses Giotto for marker detection. You need to install it in R.
+Most common dependencies are included in `environment.yml`, but installing Giotto may still require manually installing additional packages.
+
+Then install Giotto in R (required for marker detection with Giotto):
 
 Open R or RStudio and run:
 
