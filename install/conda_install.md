@@ -1,5 +1,13 @@
 # CytoBulk Installation — Conda Version
 
+
+## Important Note
+
+- CytoBulk has been tested on WSL2 and Linux systems.
+- On Windows, Docker is the recommended first-choice installation/runtime method.
+- If local installation fails and the issue cannot be resolved, please use Docker.
+
+
 ## 1.1 Conda installation (recommended)
 
 First, clone the CytoBulk repository:

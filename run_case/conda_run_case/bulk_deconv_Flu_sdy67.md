@@ -118,7 +118,7 @@ python bulk_deconv_Flu_sdy67.py \
   --bulk_adata "${DATASET_DIR}/input/SDY67_bulk_with_gt.h5ad" \
   --annotation_key "cell_type" \
   --out_dir "${DATASET_OUT}" \
-  --dataset_name "SDY67" \
+  --dataset_name "SDY67" 
 ```
 Outputs will be written under:
 ```bash

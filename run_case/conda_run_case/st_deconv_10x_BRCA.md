@@ -103,7 +103,7 @@ python st_deconv_10x_brca.py \
   --sc_adata "${SAMPLE_DIR}/input/sc_adata.h5ad" \
   --st_adata "${SAMPLE_DIR}/input/st_adata_sub_${SUB_ID}.h5ad" \
   --out_dir "${SAMPLE_OUT}" \
-  --dataset_name "10x_${SUB_ID}"
+  --dataset_name "10x_sub${SUB_ID}"
   ```
 Outputs will be written to:
 ```bash
