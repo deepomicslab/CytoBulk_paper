@@ -13,7 +13,7 @@
 First, clone the CytoBulk repository:
 
 ```bash
-git clone git@github.com:kristaxying/CytoBulk.git
+git clone git@github.com:deepomicslab/CytoBulk.git
 cd CytoBulk
 ```
 
