@@ -6,7 +6,7 @@ This document describes how to reproduce the **bulk deconvolution** results for 
 
 ## 1) Download the `BULK_HGSOC` package
 
-Download the folder **`BULK_HGSOC/`** from **`XXXX`**.
+Download the folder **`BULK_HGSOC/`** from [https://doi.org/10.5281/zenodo.18495002](https://doi.org/10.5281/zenodo.18495002).
 
 Folder structure (as provided):
 

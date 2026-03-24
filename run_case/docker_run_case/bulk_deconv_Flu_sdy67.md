@@ -13,7 +13,7 @@ Both references deconvolve the same bulk file: `SDY67_bulk_with_gt.h5ad`.
 
 ## 1) Download the `BULK_Flu_sdy67` package
 
-Download the folder **`BULK_Flu_sdy67/`** from **`XXXX`**.
+Download the folder **`BULK_Flu_sdy67/`** from [https://doi.org/10.5281/zenodo.18495002](https://doi.org/10.5281/zenodo.18495002).
 
 Folder structure:
 

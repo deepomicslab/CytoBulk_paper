@@ -8,7 +8,7 @@ The input package `BULK_Human_sc/` contains **one task** (one bulk cohort + one 
 
 ## 1) Download the `BULK_Human_sc` package
 
-Download the folder **`BULK_Human_sc/`** from **`XXXX`**.
+Download the folder **`BULK_Human_sc/`** from [https://doi.org/10.5281/zenodo.18495002](https://doi.org/10.5281/zenodo.18495002).
 
 Folder structure (as provided):
 

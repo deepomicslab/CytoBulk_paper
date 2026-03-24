@@ -15,7 +15,7 @@ The **default case in this tutorial is 5% anchor genes**.
 
 ## 1) Download the `HE_mapping_CID867` package
 
-Download the folder **`HE_mapping_CID867/`** from **`XXXX`**.
+Download the folder **`HE_mapping_CID867/`** from [https://doi.org/10.5281/zenodo.18495002](https://doi.org/10.5281/zenodo.18495002).
 
 Folder structure (as provided):
 

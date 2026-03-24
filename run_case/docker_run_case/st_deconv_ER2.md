@@ -6,7 +6,7 @@ This document describes how to reproduce the **ER2 spatial transcriptomics (ST) 
 
 ## 1) Download the `ST_ER2` package
 
-Download the folder **`ST_ER2/`** from **`XXXX`**.
+Download the folder **`ST_ER2/`** from [https://doi.org/10.5281/zenodo.18495002](https://doi.org/10.5281/zenodo.18495002).
 
 It contains three subfolders:
 

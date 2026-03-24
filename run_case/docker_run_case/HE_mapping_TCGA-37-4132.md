@@ -8,7 +8,7 @@ The input package **`HE_mapping_TCGA-37-4132/`** contains one task (one SVS slid
 
 ## 1) Download the `HE_mapping_TCGA-37-4132` package
 
-Download the folder **`HE_mapping_TCGA-37-4132/`** from **`XXXX`**.
+Download the folder **`HE_mapping_TCGA-37-4132/`** from [https://doi.org/10.5281/zenodo.18495002](https://doi.org/10.5281/zenodo.18495002).
 
 Folder structure (as provided):
 

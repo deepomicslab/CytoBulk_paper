@@ -6,7 +6,7 @@ This document describes how to reproduce the **bulk deconvolution** results for 
 
 ## 1) Download the `BULK_simulation` package
 
-Download the folder **`BULK_simulation/`** from **`XXXX`**.
+Download the folder **`BULK_simulation/`** from [https://doi.org/10.5281/zenodo.18495002](https://doi.org/10.5281/zenodo.18495002).
 
 It contains **12 datasets**:
 

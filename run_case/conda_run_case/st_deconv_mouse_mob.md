@@ -6,7 +6,7 @@ This document describes how to reproduce the **mouse MOB spatial transcriptomics
 
 ## 1) Download the `ST_mouse_mob` package
 
-Download the folder **`ST_mouse_mob/`** from **`XXXX`**.
+Download the folder **`ST_mouse_mob/`** from [https://doi.org/10.5281/zenodo.18495002](https://doi.org/10.5281/zenodo.18495002).
 
 It contains three subfolders:
 

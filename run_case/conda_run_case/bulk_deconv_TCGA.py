@@ -57,6 +57,7 @@ def test_st_deconv(sc_adata, bulk_adata, annotation_key, out_dir, dataset_name, 
         giotto_gene_num=150,
         downsampling=False,
         high_purity=True,
+        reproduce = True,
     )
     print("end")
 

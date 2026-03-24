@@ -10,7 +10,7 @@ The input package `BULK_HGSOC/` contains **one HGSOC task** (one bulk cohort + o
 
 ## 1) Download the `BULK_HGSOC` package
 
-Download the folder **`BULK_HGSOC/`** from **`XXXX`**.
+Download the folder **`BULK_HGSOC/`** from [https://doi.org/10.5281/zenodo.18495002](https://doi.org/10.5281/zenodo.18495002).
 
 Folder structure (as provided):
 

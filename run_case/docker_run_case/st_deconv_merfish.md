@@ -6,7 +6,7 @@ This document describes how to reproduce the **MERFISH spatial transcriptomics (
 
 ## 1) Download the `ST_merfish` package
 
-Download the folder **`ST_merfish/`** from **`XXXX`**.
+Download the folder **`ST_merfish/`** from [https://doi.org/10.5281/zenodo.18495002](https://doi.org/10.5281/zenodo.18495002).
 
 It contains three subfolders:
 

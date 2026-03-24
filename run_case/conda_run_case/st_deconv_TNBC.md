@@ -6,7 +6,7 @@ This document describes how to reproduce the **TNBC spatial transcriptomics (ST)
 
 ## 1) Download the `ST_TNBC` package
 
-Download the folder **`ST_TNBC/`** from **`XXXX`**.
+Download the folder **`ST_TNBC/`** from [https://doi.org/10.5281/zenodo.18495002](https://doi.org/10.5281/zenodo.18495002).
 
 It contains three subfolders:
 

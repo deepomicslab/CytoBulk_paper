@@ -65,7 +65,8 @@ def test_bulk_deconv(sc_adata, bulk_adata, annotation_key, out_dir, dataset_name
                       use_adversarial=True,
                       specificity=True,
                       giotto_gene_num=150,
-                      downsampling=False)
+                      downsampling=False,
+                      reproduce = True)
     
     # End timing
     end_time = time.time()

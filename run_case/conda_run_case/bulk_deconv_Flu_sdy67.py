@@ -62,6 +62,7 @@ def run_bulk_deconv(
         specificity=True,
         giotto_gene_num=150,
         downsampling=False,
+        reproduce = True
     )
     print("end")
 

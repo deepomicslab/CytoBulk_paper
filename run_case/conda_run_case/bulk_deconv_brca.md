@@ -10,7 +10,7 @@ The input package `BULK_BRCA/` contains **one task**:
 
 ## 1) Download the `BULK_BRCA` package
 
-Download the folder **`BULK_BRCA/`** from **`XXXX`**.
+Download the folder **`BULK_BRCA/`** from [https://doi.org/10.5281/zenodo.18495002](https://doi.org/10.5281/zenodo.18495002).
 
 Folder structure (as provided):
 

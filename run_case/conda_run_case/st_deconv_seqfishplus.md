@@ -6,7 +6,7 @@ This document describes how to reproduce the **SeqFISH+ spatial transcriptomics 
 
 ## 1) Download the `ST_seqfishplus` package
 
-Download the folder **`ST_seqfishplus/`** from **`XXXX`**.
+Download the folder **`ST_seqfishplus/`** from [https://doi.org/10.5281/zenodo.18495002](https://doi.org/10.5281/zenodo.18495002).
 
 It contains three subfolders:
 

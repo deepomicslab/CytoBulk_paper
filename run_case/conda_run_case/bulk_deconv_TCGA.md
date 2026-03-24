@@ -12,7 +12,7 @@ The input package `BULK_TCGA/` contains **three TCGA tasks** (each task = one bu
 
 ## 1) Download the `BULK_TCGA` package
 
-Download the folder **`BULK_TCGA/`** from **`XXXX`**.
+Download the folder **`BULK_TCGA/`** from [https://doi.org/10.5281/zenodo.18495002](https://doi.org/10.5281/zenodo.18495002).
 
 It contains three subfolders (tasks):
 

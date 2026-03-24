@@ -6,7 +6,7 @@ This document describes how to reproduce the **10x_BRCA spatial transcriptomics 
 
 ## 1) Download the `ST_10X_BRCA` package
 
-Download the folder **`ST_10X_BRCA/`** from **`XXXX`**.
+Download the folder **`ST_10X_BRCA/`** from [https://doi.org/10.5281/zenodo.18495002](https://doi.org/10.5281/zenodo.18495002).
 
 It contains **six sample subfolders**:
 
