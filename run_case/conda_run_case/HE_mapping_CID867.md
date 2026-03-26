@@ -291,7 +291,7 @@ This function predicts cell types from H&E-stained histology images and aligns t
 
 - `sc_adata : anndata.AnnData, optional (default: None)`  
   Single-cell / reference expression AnnData.  
-  In CID867: `demo_original_sc_adata.h5ad`.
+
 
 - `annotation_key : str, optional (default: "curated_celltype")`  
   Key in `sc_adata.obs` for cell type annotations.  
@@ -303,15 +303,15 @@ This function predicts cell types from H&E-stained histology images and aligns t
 - `alpha : float | "auto_compute", optional (default: "auto_compute")`  
   Trade-off parameter for Fused Gromov–Wasserstein OT (range [0, 1]) controlling balance between
   graph structure alignment and feature/label matching.  
-  In CID867 reference run: `alpha=0`.
+
 
 - `mapping_sc : bool, optional (default: True)`  
   Whether to map H&E image-derived cells to the single-cell/reference data.  
-  In the CLI: `--mapping_sc 1`.
+
 
 - `batch_size : int, optional (default: 3000)`  
   Max number of cells processed per batch (memory/runtime knob).  
-  In CID867 reference run: `15000`.
+
 
 - `downsampling : bool, optional (default: False)`  
   Whether to downsample single-cell data to match the distribution inferred from H&E images.
@@ -324,12 +324,12 @@ This function predicts cell types from H&E-stained histology images and aligns t
 - `sc_st : bool, optional (default: False)`  
   Whether the input single-cell data is spatial single-cell (ST-like) data.  
   If `True`, the method uses looser filtering/normalization.  
-  In CID867 reference run: `True` (CLI: `--sc_st true`).
+
 
 - `expression_weight : float, optional (default: 0.0)`  
   Weight for gene-expression similarity in the cost matrix (range [0, 1]).  
   Higher values increase the influence of expression similarity vs. cell-type matching.  
-  In CID867 reference run: `0.5`.
+
 
 - `skip_filtering : bool, optional (default: False)`  
   Whether to skip filtering of the single-cell/reference data.  
@@ -340,4 +340,4 @@ This function predicts cell types from H&E-stained histology images and aligns t
 
 - `seed : int, optional (default: None)`  
   Random seed for reproducibility.  
-  In CID867 reference run: `20230602`.
+

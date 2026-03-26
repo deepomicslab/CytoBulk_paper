@@ -148,7 +148,7 @@ These parameters control the mapping between image-derived cells and scRNA-seq d
   Controls balance between:
   - **graph structure** alignment, and
   - **feature / label matching**.  
-  (default: 0.5)
+
 
 - `--batch_size`  
   Maximum number of cells processed per batch (memory/runtime knob).  
@@ -161,7 +161,7 @@ These parameters control the mapping between image-derived cells and scRNA-seq d
 
 - `--return_adata` (0/1)  
   Whether to return/save an AnnData object containing mapping outputs  
-  for downstream analysis (e.g., CommOT).
+
 
 ---
 
