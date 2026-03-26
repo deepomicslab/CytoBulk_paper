@@ -193,7 +193,7 @@ Because different `DeepCMorph` versions may be used in different environments, r
 
 If you need to **fully reproduce** our results, please download our provided `DeepCMorph` model version from:
 
-`xxx`
+`https://doi.org/10.5281/zenodo.18495002`
 
 Then place it in your pip-installed package path at:
 
@@ -211,7 +211,7 @@ This error usually means the pretrained model file was not fully downloaded (cor
 
 Download link:
 
-`xxx/DeepCMorph_Datasets_Combined_41_classes_acc_8159.pth`
+`https://doi.org/10.5281/zenodo.18495002`
 
 Then place it at:
 
