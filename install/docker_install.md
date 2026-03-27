@@ -27,6 +27,7 @@ You should see output similar to:
 REPOSITORY           TAG       IMAGE ID       SIZE
 kristawang/cytobulk  1.0.0     <image_id>     <size>
 ```
+**Note on Docker logs:** In some environments, runtime logs may appear in batches (or mostly at the end) due to output buffering behavior. If you do not see real-time logs, the program may still be running normally.
 
 ## 1.3 Troubleshooting
 

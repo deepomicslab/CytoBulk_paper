@@ -241,7 +241,6 @@ These parameters control how the `.svs` image is converted into tiles.
 
 - `--image_out_dir`  
   Output directory where the generated tiles will be saved.  
-  In CID867 example: `${SAMPLE_OUT}/ncbi867_image_3_1_test`.
 
 - `--enable_cropping` (0/1)  
   Whether to crop a specific region (1) or process without cropping (0).  
@@ -333,7 +332,6 @@ This function predicts cell types from H&E-stained histology images and aligns t
 
 - `skip_filtering : bool, optional (default: False)`  
   Whether to skip filtering of the single-cell/reference data.  
-  In CID867 reference run: `True` (CLI: `--skip_filtering true`).
 
 - `return_adata : bool` *(exposed in your CLI wrapper)*  
   Whether to save an AnnData object containing mapping outputs for downstream analysis.

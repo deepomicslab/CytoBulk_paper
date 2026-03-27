@@ -108,15 +108,12 @@ These parameters control how the `.svs` image is converted into tiles.
 
 - `--svs_path`  
   Path to the input `.svs` slide.  
-  In CID867: `/inputs/cropped_image_3_1.svs`.
 
 - `--image_out_dir`  
   Output directory where the generated tiles will be saved.  
-  In CID867 example: `/outputs/ncbi867_image_3_1_test`.
 
 - `--enable_cropping` (0/1)  
   Whether to crop a specific region (1) or process without cropping (0).  
-  In the CID867 reference script: `enable_cropping=False` → use `0`.
 
 - `--crop_size`  
   Tile size in pixels (e.g., 224 means 224×224).
@@ -203,7 +200,7 @@ This function predicts cell types from H&E-stained histology images and aligns t
   Whether to skip filtering of the single-cell/reference data.  
 
 
-- `return_adata : bool` *(exposed in your CLI wrapper)*  
+- `return_adata : bool`  
   Whether to save an AnnData object containing mapping outputs for downstream analysis.
 
 
